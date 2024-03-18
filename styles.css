@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    padding: 0 220px;
 }
 
 main {
@@ -35,6 +34,10 @@ header .homepage-button a {
     font-size: 24px;
 }
 
+.container-links, .homepage-button, .second-main {
+    margin: 0 15%;
+}
+
 .container-links {
     display: flex;
     gap: 25px;
@@ -43,10 +46,10 @@ header .homepage-button a {
 .first-main {
     display: flex;
     justify-content: space-between;
-    padding: 80px 20px;
-    gap: 10px;
+    padding: 120px 0px;
     background-color: #1F2937;
     color: white;
+    gap: 30px;
 }
 
 .first-second {
@@ -54,6 +57,7 @@ header .homepage-button a {
     flex-direction: column;
     flex: 1;
     gap: 5px;
+    margin-left: 15%;
 }
 
 .input-image {
@@ -62,6 +66,7 @@ header .homepage-button a {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    margin-right: 15%;
 }
 
 .first-second button, .fourth-main button {
@@ -94,23 +99,25 @@ header .homepage-button a {
 
 .image-and-text-container {
     display: flex;
-    gap: 8px;
+    gap: 50px;
 }
 
 .empty-image {
     outline: 2px solid blue;
-    height: 80px;
-    width: 80px;
+    height: 16vh;
+    width: 16vh;
     border-radius: 15%;
 }
 
 .image-and-text p {
     text-align: center;
+    width: 16vh;
+    font-size: 13px;
 }
 
 .third-main {
     justify-content: center;
-    padding: 50px 150px;
+    padding: 50px 20%;
     background-color: #E5E7EB;
 }
 
@@ -125,11 +132,13 @@ header .homepage-button a {
     padding: 40px;
     background-color: #3882F6;
     border-radius: 10px;
+    margin: 70px 15%;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 h1 {
